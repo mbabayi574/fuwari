@@ -17,6 +17,8 @@ export type SiteConfig = {
 		| "fa"
 		| "id";
 
+	rtl: boolean; // Right to left layout
+
 	themeColor: {
 		hue: number;
 		fixed: boolean;
